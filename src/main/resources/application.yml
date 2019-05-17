@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/springhibernate?useSSL=false&autoReconnect=true&useUnicode=yes&characterEncoding=UTF-8
+    username: root
+    password: password
+  jpa:
+    database: MYSQL
+    showSql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+        format_sql: false
