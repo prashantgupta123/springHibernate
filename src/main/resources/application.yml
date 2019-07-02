@@ -1,6 +1,7 @@
 spring:
   datasource:
-    url: S{MYSQL_HOST:jdbc:mysql://localhost:3306/springhibernate?useSSL=false&autoReconnect=true&useUnicode=yes&characterEncoding=UTF-8}
+    url: S{JDBC_HOST:jdbc:mysql://localhost:3306/springhibernate?useSSL=false&autoReconnect=true&useUnicode=yes
+    &characterEncoding=UTF-8}
     username: ${MYSQL_USER:root}
     password: ${MYSQL_ROOT_PASSWORD:password}
   jpa:
