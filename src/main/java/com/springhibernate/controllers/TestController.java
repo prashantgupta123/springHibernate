@@ -29,7 +29,7 @@ public class TestController {
 
     @GetMapping("/")
     public String testMethod() {
-        return "Working Fine Prashant 12345";
+        return "Working Fine Prashant 12345 cool";
     }
 
     @PostMapping("/save")
