@@ -29,4 +29,6 @@ dependencies {
     compile group: 'org.apache.commons', name: 'commons-collections4', version: '4.3'
     compile group: 'commons-io', name: 'commons-io', version: '2.6'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    compile group: 'org.apache.activemq', name: 'activemq-client', version: '5.15.9'
+    compile group: 'org.apache.activemq', name: 'activemq-pool', version: '5.15.9'
 }
